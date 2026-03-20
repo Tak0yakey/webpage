@@ -18,6 +18,7 @@ function App() {
 
   const copyIp = () => {
     window.location.href = 'https://discord.gg/RYwkDq2b'
+    setTimeout(() => { setCopied(false) }, 1000)
   };
 
   // Simulate live player count updates
